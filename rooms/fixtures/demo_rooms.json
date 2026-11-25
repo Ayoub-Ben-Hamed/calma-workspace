@@ -1,0 +1,11 @@
+[
+  {"model": "rooms.equipment", "pk": 1, "fields": {"name": "Wi-Fi"}},
+  {"model": "rooms.equipment", "pk": 2, "fields": {"name": "Projector"}},
+  {"model": "rooms.equipment", "pk": 3, "fields": {"name": "Whiteboard"}},
+  {"model": "rooms.equipment", "pk": 4, "fields": {"name": "Air conditioning"}},
+  {"model": "rooms.equipment", "pk": 5, "fields": {"name": "Power outlets"}},
+  {"model": "rooms.room", "pk": 1, "fields": {"name": "Focus 1", "room_type": "individual", "capacity": 1, "equipment": [1, 5], "max_duration_hours": 8, "buffer_minutes": 10, "hourly_price": "3.00", "daily_price": "15.00", "is_active": true}},
+  {"model": "rooms.room", "pk": 2, "fields": {"name": "Study Group A", "room_type": "group", "capacity": 6, "equipment": [1, 3, 5], "max_duration_hours": 4, "buffer_minutes": 15, "hourly_price": "8.00", "daily_price": "40.00", "is_active": true}},
+  {"model": "rooms.room", "pk": 3, "fields": {"name": "Meeting Room", "room_type": "meeting", "capacity": 10, "equipment": [1, 2, 3, 4], "max_duration_hours": 3, "buffer_minutes": 15, "hourly_price": "15.00", "daily_price": "90.00", "is_active": true}},
+  {"model": "rooms.room", "pk": 4, "fields": {"name": "Training Hall", "room_type": "training", "capacity": 25, "equipment": [1, 2, 3, 4, 5], "max_duration_hours": 8, "buffer_minutes": 30, "hourly_price": "30.00", "daily_price": "180.00", "is_active": true}}
+]
