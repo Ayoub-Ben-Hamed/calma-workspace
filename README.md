@@ -6,14 +6,16 @@ Django + Bootstrap + SQLite + pytest
 ## Setup & Run
 
 ```powershell
-git clone https://github.com/<user>/calma-workspace.git
+git clone https://github.com/Ayoub-Ben-Hamed/calma-workspace.git
 cd calma-workspace
 python -m venv venv
 venv\Scripts\activate
 pip install -r requirements.txt
 python manage.py migrate
-<<<<<<< HEAD
 python manage.py runserver
-=======
-python manage.py runserver
->>>>>>> 503e292cf7998742594c40a4f5fc1bf9290b867d
+```
+
+## Documentation
+- [Product Vision](docs/product-vision.md)
+- [Product Backlog](docs/product-backlog.md)
+- [Use case diagram (StarUML)](docs/uml/use-case-diagram.mdj)
